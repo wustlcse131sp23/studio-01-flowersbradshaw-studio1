@@ -19,18 +19,6 @@ public class Ordered {
 		boolean isOrdered = ((x < y) && (y < z))||((x > y) && (y > z));
 		System.out.println(isOrdered);
 		
-		
-		
-		/*if ((x < y) && (y < z)){
-			 isOrdered = true;
-		}
-		if ((x > y) && (y > z)){
-			 isOrdered = true;
-		}
-		else 
-			isOrdered = false;
-		System.out.println(isOrdered);*/
-		
 	}
 
 }
